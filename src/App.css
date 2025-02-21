@@ -1,0 +1,53 @@
+#main{
+  width: 30%;
+  margin: 50px auto;
+  box-shadow: 1px 1px 5px grey;
+}
+#main img{
+  margin-left: 32%;
+  height: 120px;
+  width: 25%;
+}
+#main img:hover{
+  transition: 0.6s;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+input{
+  margin: 0px auto;
+}
+#cartlogo{
+  background-color: red;
+  font-size: small;
+}
+h4{
+  color: rgb(3, 3, 92);
+}
+p{
+  text-align: justify;
+}
+section{
+  border: 2px dotted;
+}
+#pricebox{
+  width: 35%;
+}
+#addbtns:hover{
+    background-color:darkblue;
+    color: #fff;
+    transition:0.6s;
+    transform: scale(1.2);
+}
+#header{
+  background: linear-gradient(to right,rgba(90,0,100),#fff 90%);
+  padding: 10px;
+  color:rgba(90,0,100);
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.hov:hover{
+    background-color: coral;
+    transition: 0.7s;
+    border: none;
+    transform: scale(1.3);
+}
